@@ -1,0 +1,33 @@
+{
+  "name": "jimmyspa-clone",
+  "version": "1.0.0",
+  "description": "This project is a modern, high-performance rebuild of JimmySPA's website using the Next.js framework and modern frontend tools. It aims to replicate the original site's structure and content while significantly improving performance, SEO, responsiveness, and maintainability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snapshot": "ts-node scripts/snapshot-site.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ter2yz/jimmyspa-clone.git"
+  },
+  "author": "ter2yz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ter2yz/jimmyspa-clone/issues"
+  },
+  "homepage": "https://github.com/ter2yz/jimmyspa-clone#readme",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "type": "module",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
